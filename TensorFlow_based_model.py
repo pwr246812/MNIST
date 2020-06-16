@@ -18,7 +18,7 @@ X_train = np.divide(X_train, 255)
 X_test = np.divide(X_test, 255)
 
 model = keras.Sequential()
-model.add(keras.layers.Conv2D(8, kernel_size=(3, 3), activation='relu', kernel_initializer='he_normal', input_shape=(28, 28, 1)))
+model.add(keras.layers.Conv2D(28, kernel_size=(3, 3), activation='relu', kernel_initializer='he_normal', input_shape=(28, 28, 1)))
 model.add(keras.layers.MaxPooling2D(pool_size=(2, 2)))
 model.add(keras.layers.Dropout(0.25))
 model.add(keras.layers.Flatten())
