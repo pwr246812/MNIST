@@ -51,7 +51,7 @@ Finally we can fit model to training data. Of course we are using training datas
 
 #### Results
 
-Saved in file setup achieve from 89 to 90 percent accuracy and comparing to results from benchmark it is very good score. Training time equals about two minutes. 
+Saved in file setup achieve from 90 to 91 percent accuracy and comparing to results from benchmark it is very good score. Training time equals about two minutes. 
 
 #### Usage
 
