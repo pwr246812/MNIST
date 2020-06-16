@@ -38,9 +38,11 @@ In this part the k-nearest neighbors algorithm is no longer used. Here, the mode
     output = activation(dot( input, kernel) + bias
 
 Conv2D:
+
 ![](https://pyimagesearch.com/wp-content/uploads/2018/12/keras_conv2d_num_filters.png)
 
 MaxPooling2D:
+
 ![](https://computersciencewiki.org/images/8/8a/MaxpoolSample2.png)
 
 Layers take as params many values. One of them is activation. Keras has a few activation functions prepared for us. They give basically similar results and accuracy. The only one which is a little bit worse than others is exponential, I do not recommend you use it, but with others feel free. A set which is saved in file I found the best but maybe there is a better combination. Interesting is a difference in results between a 'softmax' and 'relu' activation in last layer. Try it if you want. 
